@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64376D3A150E538100BDCBAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64376D39150E538100BDCBAC /* UIKit.framework */; };
+		64376D3C150E538100BDCBAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64376D3B150E538100BDCBAC /* Foundation.framework */; };
+		64376D3E150E538100BDCBAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64376D3D150E538100BDCBAC /* CoreGraphics.framework */; };
+		64376D44150E538100BDCBAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64376D42150E538100BDCBAC /* InfoPlist.strings */; };
+		64376D46150E538100BDCBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64376D45150E538100BDCBAC /* main.m */; };
+		64376D4A150E538100BDCBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64376D49150E538100BDCBAC /* AppDelegate.m */; };
+		64376D4D150E538100BDCBAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64376D4C150E538100BDCBAC /* ViewController.m */; };
+		64376D50150E538100BDCBAC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64376D4E150E538100BDCBAC /* ViewController.xib */; };
+		64376D59150E539000BDCBAC /* SliderActiveBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 64376D56150E539000BDCBAC /* SliderActiveBg.png */; };
+		64376D5A150E539000BDCBAC /* SliderButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 64376D57150E539000BDCBAC /* SliderButton.png */; };
+		64376D5B150E539000BDCBAC /* SliderBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 64376D58150E539000BDCBAC /* SliderBg.png */; };
+		64376D5E150E551100BDCBAC /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 64376D5C150E539A00BDCBAC /* Slider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64376D35150E538100BDCBAC /* SliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64376D39150E538100BDCBAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64376D3B150E538100BDCBAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64376D3D150E538100BDCBAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64376D41150E538100BDCBAC /* SliderDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderDemo-Info.plist"; sourceTree = "<group>"; };
+		64376D43150E538100BDCBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64376D45150E538100BDCBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		64376D47150E538100BDCBAC /* SliderDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SliderDemo-Prefix.pch"; sourceTree = "<group>"; };
+		64376D48150E538100BDCBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		64376D49150E538100BDCBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		64376D4B150E538100BDCBAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		64376D4C150E538100BDCBAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		64376D4F150E538100BDCBAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		64376D56150E539000BDCBAC /* SliderActiveBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderActiveBg.png; sourceTree = "<group>"; };
+		64376D57150E539000BDCBAC /* SliderButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderButton.png; sourceTree = "<group>"; };
+		64376D58150E539000BDCBAC /* SliderBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderBg.png; sourceTree = "<group>"; };
+		64376D5C150E539A00BDCBAC /* Slider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		64376D5D150E539A00BDCBAC /* Slider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Slider.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64376D32150E538100BDCBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64376D3A150E538100BDCBAC /* UIKit.framework in Frameworks */,
+				64376D3C150E538100BDCBAC /* Foundation.framework in Frameworks */,
+				64376D3E150E538100BDCBAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64376D2A150E538100BDCBAC = {
+			isa = PBXGroup;
+			children = (
+				64376D3F150E538100BDCBAC /* SliderDemo */,
+				64376D38150E538100BDCBAC /* Frameworks */,
+				64376D36150E538100BDCBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64376D36150E538100BDCBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64376D35150E538100BDCBAC /* SliderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64376D38150E538100BDCBAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64376D39150E538100BDCBAC /* UIKit.framework */,
+				64376D3B150E538100BDCBAC /* Foundation.framework */,
+				64376D3D150E538100BDCBAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64376D3F150E538100BDCBAC /* SliderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64376D48150E538100BDCBAC /* AppDelegate.h */,
+				64376D49150E538100BDCBAC /* AppDelegate.m */,
+				64376D4B150E538100BDCBAC /* ViewController.h */,
+				64376D4C150E538100BDCBAC /* ViewController.m */,
+				64376D4E150E538100BDCBAC /* ViewController.xib */,
+				64376D56150E539000BDCBAC /* SliderActiveBg.png */,
+				64376D57150E539000BDCBAC /* SliderButton.png */,
+				64376D58150E539000BDCBAC /* SliderBg.png */,
+				64376D5D150E539A00BDCBAC /* Slider.h */,
+				64376D5C150E539A00BDCBAC /* Slider.m */,
+				64376D40150E538100BDCBAC /* Supporting Files */,
+			);
+			path = SliderDemo;
+			sourceTree = "<group>";
+		};
+		64376D40150E538100BDCBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64376D41150E538100BDCBAC /* SliderDemo-Info.plist */,
+				64376D42150E538100BDCBAC /* InfoPlist.strings */,
+				64376D45150E538100BDCBAC /* main.m */,
+				64376D47150E538100BDCBAC /* SliderDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64376D34150E538100BDCBAC /* SliderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64376D53150E538100BDCBAC /* Build configuration list for PBXNativeTarget "SliderDemo" */;
+			buildPhases = (
+				64376D31150E538100BDCBAC /* Sources */,
+				64376D32150E538100BDCBAC /* Frameworks */,
+				64376D33150E538100BDCBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderDemo;
+			productName = SliderDemo;
+			productReference = 64376D35150E538100BDCBAC /* SliderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64376D2C150E538100BDCBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Createanet;
+			};
+			buildConfigurationList = 64376D2F150E538100BDCBAC /* Build configuration list for PBXProject "SliderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64376D2A150E538100BDCBAC;
+			productRefGroup = 64376D36150E538100BDCBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64376D34150E538100BDCBAC /* SliderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64376D33150E538100BDCBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64376D44150E538100BDCBAC /* InfoPlist.strings in Resources */,
+				64376D50150E538100BDCBAC /* ViewController.xib in Resources */,
+				64376D59150E539000BDCBAC /* SliderActiveBg.png in Resources */,
+				64376D5A150E539000BDCBAC /* SliderButton.png in Resources */,
+				64376D5B150E539000BDCBAC /* SliderBg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64376D31150E538100BDCBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64376D5E150E551100BDCBAC /* Slider.m in Sources */,
+				64376D46150E538100BDCBAC /* main.m in Sources */,
+				64376D4A150E538100BDCBAC /* AppDelegate.m in Sources */,
+				64376D4D150E538100BDCBAC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64376D42150E538100BDCBAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64376D43150E538100BDCBAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64376D4E150E538100BDCBAC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64376D4F150E538100BDCBAC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64376D51150E538100BDCBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64376D52150E538100BDCBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64376D54150E538100BDCBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderDemo/SliderDemo-Prefix.pch";
+				INFOPLIST_FILE = "SliderDemo/SliderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64376D55150E538100BDCBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderDemo/SliderDemo-Prefix.pch";
+				INFOPLIST_FILE = "SliderDemo/SliderDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64376D2F150E538100BDCBAC /* Build configuration list for PBXProject "SliderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64376D51150E538100BDCBAC /* Debug */,
+				64376D52150E538100BDCBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64376D53150E538100BDCBAC /* Build configuration list for PBXNativeTarget "SliderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64376D54150E538100BDCBAC /* Debug */,
+				64376D55150E538100BDCBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64376D2C150E538100BDCBAC /* Project object */;
+}
