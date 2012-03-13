@@ -1,6 +1,6 @@
 //
 //  Slider.h
-//  cottages
+//  SliderDemo
 //
 //  Created by Ed Rackham on 08/03/2012.
 //  Copyright (c) 2012 edrackham.com. All rights reserved.
